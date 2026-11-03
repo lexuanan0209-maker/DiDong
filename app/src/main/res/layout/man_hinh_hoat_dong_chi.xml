@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvTenSuKienChi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hoạt động Thu Chi"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#1E88E5"
+        tools:ignore="HardcodedText,VisualLintSystemUi" />
+
+    <TextView
+        android:id="@+id/tvQuyHienTaiChi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quỹ hiện có: 0 VNĐ"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#388E3C"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="12dp"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnThemHoatDongChi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="#4CAF50"
+        android:text="+ Thêm khoản chi mới"
+        android:textColor="#FFFFFF"
+        tools:ignore="HardcodedText,TextContrastCheck,VisualLintButtonSize" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvDanhSachHoatDongChi"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
