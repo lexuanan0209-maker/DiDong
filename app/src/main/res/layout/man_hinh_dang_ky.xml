@@ -5,16 +5,17 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="24dp"
-    android:gravity="center">
+    android:gravity="center_horizontal">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="ĐĂNG KÝ TÀI KHOẢN THỦ QUỸ"
-        android:textSize="20sp"
+        android:textSize="24sp"
         android:textStyle="bold"
         android:textColor="#1E88E5"
-        android:layout_marginBottom="24dp"
+        android:layout_marginBottom="60dp"
+        android:layout_marginTop="120dp"
         tools:ignore="HardcodedText" />
 
     <EditText

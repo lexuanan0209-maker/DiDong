@@ -85,6 +85,8 @@
             android:layout_weight="1"
             android:text="Sắp xếp: A-Z"
             android:textSize="11sp"
+            android:singleLine="true"
+            android:ellipsize="end"
             tools:ignore="ButtonStyle,HardcodedText,VisualLintButtonSize" />
 
         <Button
